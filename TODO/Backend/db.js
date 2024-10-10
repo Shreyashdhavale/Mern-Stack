@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("INSERT YOUR DATABASE URL HERE", {
+  .connect("mongodb://localhost:27017/todoDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

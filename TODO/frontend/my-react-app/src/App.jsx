@@ -12,7 +12,7 @@ function App() {
       const response = await axios.get("http://localhost:8000/todos");
       setTodo(response.data); // Set the todo state to the fetched todos
     } catch (error) {
-      console.log("Error fetching todos:", error);
+      console.log("Error featching todos:", error);
     }
   };
 
